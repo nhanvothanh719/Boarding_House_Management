@@ -4,13 +4,9 @@
             <div class="logo-image-small">
                 <img src="{{ asset('images/logo_bee.png') }}">
             </div>
-            <!-- <p>CT</p> -->
         </a>
         <a href="#" class="simple-text logo-normal">
             Beehive
-            <!-- <div class="logo-image-big">
-            <img src="../assets/img/logo-big.png">
-          </div> -->
         </a>
     </div>
     <div class="sidebar-wrapper">
@@ -51,19 +47,37 @@
                     <p>Table List</p>
                 </a>
             </li>
+            <li class="">
+                <a data-toggle="collapse" href="#laravelExamples" class="">
+                    <i class="nc-icon"><img src="https://paper-dashboard-laravel.creative-tim.com/paper/img/laravel.svg"></i>
+                    <p>
+                        Laravel examples
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse" id="laravelExamples">
+                    <ul class="nav">
+                        <li class="">
+                            <a href="https://paper-dashboard-laravel.creative-tim.com/profile">
+                                <span class="sidebar-mini-icon">UP</span>
+                                <span class="sidebar-normal"> User Profile </span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="https://paper-dashboard-laravel.creative-tim.com/user">
+                                <span class="sidebar-mini-icon">U</span>
+                                <span class="sidebar-normal"> User Management </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
             <li>
                 <a href="./typography.html">
                     <i class="nc-icon nc-caps-small"></i>
                     <p>Typography</p>
                 </a>
             </li>
-            <li class="active-pro">
-                <a href="./upgrade.html">
-                    <i class="nc-icon nc-spaceship"></i>
-                    <p>Upgrade to PRO</p>
-                </a>
-            </li>
         </ul>
     </div>
 </div>
-

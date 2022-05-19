@@ -1,5 +1,3 @@
-
-  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-absolute fixed-top navbar-transparent">
     <div class="container-fluid">
       <div class="navbar-wrapper">
@@ -45,21 +43,25 @@
               </p>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Action 1</a>
               <a class="dropdown-item" href="#">Another action</a>
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btn-rotate" href="javascript:;">
+          <li class="nav-item btn-rotate dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <i class="nc-icon nc-settings-gear-65"></i>
               <p>
                 <span class="d-lg-none d-md-block">Account</span>
               </p>
             </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  <!-- End Navbar -->
