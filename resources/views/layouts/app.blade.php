@@ -21,9 +21,9 @@
 
 <body>
     <div class="wrapper ">
+    @include('layouts.side_menu')
+    @include('layouts.nav')
         <div class="main-panel">
-            @include('layouts.side_menu')
-            @include('layouts.nav')
             <div class="content">
                 @yield('content')
             </div>
@@ -33,16 +33,19 @@
 </body>
 
 <!--   Core JS Files   -->
-<script src="{{ asset('js/jquery.min.js') }}"></script>
-<script src="{{ asset('js/popper.min.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/perfect-scrollbar.jquery.min.js') }}"></script>
+<script src="{{ asset('js/core/jquery.min.js') }}"></script>
+<script src="{{ asset('js/core/popper.min.js') }}"></script>
+<script src="{{ asset('js/core/bootstrap.min.js') }}"></script>
+<script src="{{ asset('js/plugins/perfect-scrollbar.jquery.min.js') }}"></script>
 <!--  Google Maps Plugin    -->
 <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
 <!-- Chart JS -->
-<script src="{{ asset('js/chartjs.min.js') }}"></script>
+<script src="{{ asset('js/plugins//chartjs.min.js') }}"></script>
 <!--  Notifications Plugin    -->
-<script src="{{ asset('js/bootstrap-notify.js') }}"></script>
+<script src="{{ asset('js/plugins/bootstrap-notify.js') }}"></script>
+<!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+<script src="{{ asset('js/paper-dashboard.min.js?v=2.0.1') }}" type="text/javascript"></script>
+<script src="{{ asset('js/demo/notifications.js') }}"></script>
 </body>
 
 </html>
